@@ -6,10 +6,8 @@ import com.swingmall.admin.AdminMain;
 import com.swingmall.admin.Page;
 
 public class Board extends Page{
-
 	public Board(AdminMain adminMain) {
 		super(adminMain);
-		setBackground(Color.PINK);
+		this.setBackground(Color.PINK);
 	}
-	
 }

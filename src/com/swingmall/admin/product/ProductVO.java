@@ -1,18 +1,18 @@
 /*
- * 
+ * 상품 1개를 담게될 로직없는 더미 객체 
+ * 오직 레코드 1건을 담기위한 용도임
  * */
-
 package com.swingmall.admin.product;
 
 public class ProductVO {
-	private int product_id; 
+	private int product_id;
 	private int subcategory_id;
 	private String product_name;
-	private String brand;
-	private int price;
+	private String brand;             
+	private int price;      
 	private String filename;
 	private String detail;
-
+	
 	public int getProduct_id() {
 		return product_id;
 	}
@@ -54,7 +54,9 @@ public class ProductVO {
 	}
 	public void setDetail(String detail) {
 		this.detail = detail;
-	}
+	} 
 	
+	//다시 만들거에요 저는 
 	
+	 
 }
