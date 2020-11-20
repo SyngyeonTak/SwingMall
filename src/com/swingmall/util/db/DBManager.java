@@ -14,7 +14,7 @@ public class DBManager {
 	private String driver="oracle.jdbc.driver.OracleDriver";
 	private String url="jdbc:oracle:thin:@localhost:1521:XE";
 	private String user="user1104";
-	private String password="1234";
+	private String password="user1104";
 	
 	//이 메서드를 호출하는 자는 Connection 객체를 반환받을수 있도록..
 	public Connection connect() {
